@@ -29,7 +29,5 @@
 ---
 
 ## Known Bugs / Problems
-
-- Typo in menu function: `"prrform"` should be `"perform"`.
 - Function call `counting_leading_zeros()` in `major.c` should be corrected to `count_leading_zeros()` to match the function prototype in `clz.c`.
 - All other functionality compiles and works correctly on CELL machines using `
