@@ -73,7 +73,7 @@ int main(){
                 break;
             
             case 4:
-                printf("Parity of %u is %d\n", number/*, parity function*/);
+                printf("Parity of %u is %d\n", number, parity(number));
                 break;
             
                 default:
