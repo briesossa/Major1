@@ -4,7 +4,7 @@
 //This endian swap function takes in a 32-bit integer value and finds the four bytes within the number and performs an endian swap on it.
 //Bytes 0 and 3 are swapped and then bytes 1 and 2 are swapped. The bytes are then concatenated together in a new swappedVal int and that value is returned.
 
-unsigned int endianSwap(int unswappedVal)
+unsigned int endianSwap(unsigned int unswappedVal)
 {
     unsigned int swappedVal;
 
