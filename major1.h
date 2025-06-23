@@ -2,7 +2,7 @@
 #define MAJOR1_H
 
 int count_leading_zeros(unsigned int x);
-//endian swap
+int endianSwap(int unswappedVal);
 //rotate
 //parity 
 
