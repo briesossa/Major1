@@ -56,7 +56,7 @@ int main(){
                 break;
             
             case 2:
-                printf("The endian swap of %u gives %u\n", number, endianSwap);
+                printf("The endian swap of %u gives %u\n", number, endianSwap(int unswappedVal));
                 break;
             
             case 3:
