@@ -1,3 +1,4 @@
+//Brianna Jackson bj0208
 #include <stdio.h>
 #include <stdlib.h>
 #include "major1.h"
@@ -55,7 +56,7 @@ int main(){
                 break;
             
             case 2:
-                printf("The endian swap of %u gives %u\n", number/*, endian function*/);
+                printf("The endian swap of %u gives %u\n", number, endianSwap);
                 break;
             
             case 3:
